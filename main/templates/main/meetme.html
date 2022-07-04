@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MY PORTFOLIO</title>
+	
+	<script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
+	<link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width =device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+
+</head>
+<body>
+
+
+
+
+
+<!-- ============MEET ME================== -->
+
+ 
+ <!-- footer -->
+
+<section id="meet" >
+	<div class="mtme"  >
+		<p>MEET ME</p>
+
+		<h1></h1>
+	</div>
+	<div class="list">
+		<!-- <button class="button">
+	<span class="text">submit</span>
+	<i class="ri-check-line icon"></i>
+		</button> -->
+		
+		<ul >
+		<li><button class="buttonb"> <span class="bio">BIOGRAPHY</span></button></li>
+
+		<li><button class="buttonq"> <span class="qual">QUALIFICATION</span></button></li>
+
+		<li><button class="buttons"><span class="ski">PROJECTS</span></button></li>
+
+		<!-- <li><button class="buttonh"><span class="hob">HOBBIES</span></button></li> -->
+	</ul>
+	</div>
+
+	<div id="slider">
+		<figure>
+			<img src="{% static 'images/meetm.jpeg' %}">
+			<img src="{% static 'images/mm.jpeg' %}">
+			<img src="{% static 'images/temi.jpeg' %}">
+			<img src="{% static 'images/adt.jpeg' %}">
+			<img src="{% static 'images/temz.jpeg' %}">
+		</figure>
+
+	</div>
+	
+		
+</div>
+</section>
+
+<script src="{% static 'js/app.js'%}"></script>
+
+
+<!-- {% block js_block %}
+	<script type="text/javascript" src="{% static 'js/app.js'}"></script>
+{% endblock %} -->
+
+<!-- <script src="app.js"></script>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "close.png";
+	}
+	else{
+		sideNav.style.right = "-250px";
+		menu.src = "imagesmenu.png";
+	}
+}
+
+</script> -->
+
+
+</body>
+</html>

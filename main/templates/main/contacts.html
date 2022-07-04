@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MY PORTFOLIO</title>
+	
+	<script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
+	<link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width =device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+
+</head>
+<body>
+
+
+
+
+
+
+<!-- Contacts -->
+
+<section id="testimonial">
+	<div class="title-text">
+		<p>CONTACTS</p>
+		<h1>One Click Away</h1>
+	</div>
+	<div class="testimonial-row">
+		<div class="testimonial-col">
+			<div class="user">
+				<img src="{% static 'images/wwweb.webp' %}">
+				<div class="user-info">
+					<h4>EMAIL <i class="fa-solid fa-envelope-circle-check" style="color:green ;" ></i></h4>
+					<small>Trexin23@yahoo.com</small>
+				</div>
+			</div>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. tempor incididunt ut labore et dolore magna aliqua. <a href="contactme">Email now</a> </p>
+		</div>
+		<div class="testimonial-col">
+			<div class="user">
+				<img src=" {%static 'images/weblogo.png' %}">
+				<div class="user-info">
+					<h4>WHATSAPP <i class="fa-brands fa-whatsapp" style="color:green ;"></i> </h4>
+					<small>@09167211961</small>
+				</div>
+			</div>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. tempor incididunt ut labore et dolore magna aliqua. hit right get the glamour </p>
+		</div>
+		<div class="testimonial-col">
+			<div class="user">
+				<img src="{%static 'images/bunnylogo.jpg' %}">
+				<div class="user-info">
+					<h4>TWITTER <i class="fa-brands fa-twitter" style="color:green ;"></i> </h4>
+					<small>@DTrexin</small>
+				</div>
+			</div>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation </p>
+		</div>
+	</div>
+</section>
+
+
+
+<script src="{% static 'js/app.js'%}"></script>
+
+
+<!-- {% block js_block %}
+	<script type="text/javascript" src="{% static 'js/app.js'}"></script>
+{% endblock %} -->
+
+<!-- <script src="app.js"></script>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "close.png";
+	}
+	else{
+		sideNav.style.right = "-250px";
+		menu.src = "imagesmenu.png";
+	}
+}
+
+</script> -->
+
+
+</body>
+</html>

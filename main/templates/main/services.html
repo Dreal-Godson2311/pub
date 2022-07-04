@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MY PORTFOLIO</title>
+	
+	<script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
+	<link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width =device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+
+</head>
+<body>
+
+
+
+
+
+
+<!--  service -->
+
+ <section id="service">
+ <div class="title-text">
+ <p style="color:gold;">SERVICES</p>
+ <h1 style="color:floralwhite;">I Provide Better</h1>
+ </div>
+ <div class="service-box">
+ 	<div class="single-service">
+ 		<img src="{% static 'images/computer-room.jpg' %}">
+ 		<div class="overlay"></div>
+ 		<div class="service-desc">
+ 			<h3>Personal Portfolio</h3>
+ 			<hr>
+ 			<p>Get your beautiful responsive portfolio built in a twinkle of an eye, you get maximum satisfaction on every work done... </p>
+ 		</div>
+ 	</div>
+ 	<div class="single-service">
+ 		<img src="{% static 'images/squid.jpeg' %}">
+ 		<div class="overlay"></div>
+ 		<div class="service-desc">
+ 			<h3>Web Page</h3>
+ 			<hr>
+ 			<p>Your business is incomplete without a web page for relative response and interaction with your clients.
+ 			Get your business a web page now with just a click.</p>
+ 		</div>
+ 	</div>
+ 	<div class="single-service">
+ 		<img src=" {% static 'images/robby.jpg' %}">
+ 		<div class="overlay"></div>
+ 		<div class="service-desc">
+ 			<h3>software application</h3>
+ 			<hr>
+ 			<p>Your are never too faraway from the world with a software application that makes marketing and promotion of firms faster and easier, reach the world today from the closest mobile device you bear. </p>
+ 		</div>
+ 	</div>
+ 	<div class="single-service">
+ 		<img src="{% static 'images/heartrate.jpeg'%}">
+ 		<div class="overlay"></div>
+ 		<div class="service-desc">
+ 			<h3>Team Up</h3>
+ 			<hr>
+ 			<p>A team is never too big to win. <br>
+ 				Willing and ready to work hand-in-hand with your team.
+ 			</p>
+ 		</div>
+ 	</div>
+ </div>
+
+
+
+ </section>
+
+
+
+
+<script src="{% static 'js/app.js'%}"></script>
+
+
+<!-- {% block js_block %}
+	<script type="text/javascript" src="{% static 'js/app.js'}"></script>
+{% endblock %} -->
+
+<!-- <script src="app.js"></script>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "close.png";
+	}
+	else{
+		sideNav.style.right = "-250px";
+		menu.src = "imagesmenu.png";
+	}
+}
+
+</script> -->
+
+
+</body>
+</html>

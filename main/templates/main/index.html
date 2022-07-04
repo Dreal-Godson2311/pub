@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MY PORTFOLIO</title>
+	
+	<script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
+	<link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width =device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+
+</head>
+<body>
+<section id="banner">
+	<img src="{%static 'images/weblogoo.jpeg' %}" class="logo">
+<div class="cont">
+	<div class="text">
+	
+	</div>
+</div>
+	<div class="banner-text">
+		<div class="ban">
+			<h1>Hi, my names are</h1>
+			<h1 >TEMILOLUWA <br> <span style="color:#355c7d;">OLUWATOMISOLA</span>  <br> OJO</h1>
+		</div>
+
+		
+  		
+		<div class="banner-btn">
+			<a href='contacts'><span>Hire Me</span></a>
+			<a href="{% static "files/NEWCVOJO.pdf" %}"><span>Download My Cv</span></a>
+		</div>
+	</div>
+</section>
+
+<div id="sideNav">
+	<nav>
+	<ul>
+		<li><a href='#'>HOME</a></li>
+		<li><a href='benefits'>BENEFITS</a></li>
+		<li><a href='services'>SERVICES</a></li>
+		<li><a href='contacts'>CONTACTS</a></li>
+		<li><a href='meetme'>MEET ME</a></li>
+	
+	</ul>	
+	</nav>
+</div>
+<div id="menuBtn">
+	<img src="{%static 'images/imagesmenu.png' %}" id="menu" >
+</div>
+
+<!-- Features-->
+
+<section id="feature">
+<div class="title-text">
+<p>BENEFITS</p>
+<h1>Why Choose Me</h1>
+</div>
+<div class="feature-box">
+	<div class="features">
+		<h1>Diligent Service</h1>
+		<div class="features-desc">
+			<div class="feature-icon">
+				<img src="{%static 'images/cook.jpeg' %}">
+			</div>
+			<div class="feature-text">
+				<p> Always serving you best with what you have... <br> with your ideas in our hands ,you can sit back with zero worries...</p>
+			</div>
+		</div>
+
+		<h1>Flexibility</h1>
+		<div class="features-desc">
+			<div class="feature-icon">
+				<img src="{%static 'images/compp.jpeg'%}">
+				<!-- <i class="fa fa-check-square-o"></i> -->
+			</div>
+			<div class="feature-text">
+				<p> Always on desk to restructure and rebuild with your ideas from any part of the world... <br> Your ideas are valid</p>
+			</div>
+		</div>
+
+		<h1>Affordable Cost</h1>
+		<div class="features-desc">
+			<div class="feature-icon">
+				<i class="fa-solid fa-dollar-sign" 
+				style="color: saddlebrown; width: 100px; height:100px;font-size: 30px;border-radius: 8px;">
+			</i>
+			</div>
+			<div class="feature-text">
+				<p> I Give you the best for your offer... <br> easy pay plan</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="features-img">
+		<img src="
+		{%static 'images/sol.webp' %}">
+		<figcaption style="color: saddlebrown;">Your Problems Are As Good As Your Drive</figcaption>
+	</div>
+</div>
+</section>
+
+<!--  service -->
+
+ <section id="service">
+ <div class="title-text">
+ <p style="color:gold;">SERVICES</p>
+ <h1 style="color:floralwhite;">I Provide Better</h1>
+ </div>
+ <div class="service-box">
+ 	<div class="single-service">
+ 		<img src="{% static 'images/computer-room.jpg' %}">
+ 		<div class="overlay"></div>
+ 		<div class="service-desc">
+ 			<h3>Personal Portfolio</h3>
+ 			<hr>
+ 			<p>Get your beautiful responsive portfolio built in a twinkle of an eye, you get maximum satisfaction on every work done... </p>
+ 		</div>
+ 	</div>
+ 	<div class="single-service">
+ 		<img src="{% static 'images/squid.jpeg' %}">
+ 		<div class="overlay"></div>
+ 		<div class="service-desc">
+ 			<h3>Web Page</h3>
+ 			<hr>
+ 			<p>Your business is incomplete without a web page for relative response and interaction with your clients.
+ 			Get your business a web page now with just a click.</p>
+ 		</div>
+ 	</div>
+ 	<div class="single-service">
+ 		<img src=" {% static 'images/robby.jpg' %}">
+ 		<div class="overlay"></div>
+ 		<div class="service-desc">
+ 			<h3>software application</h3>
+ 			<hr>
+ 			<p>Your are never too faraway from the world with a software application that makes marketing and promotion of firms faster and easier, reach the world today from the closest mobile device you bear. </p>
+ 		</div>
+ 	</div>
+ 	<div class="single-service">
+ 		<img src="{% static 'images/heartrate.jpeg'%}">
+ 		<div class="overlay"></div>
+ 		<div class="service-desc">
+ 			<h3>Team Up</h3>
+ 			<hr>
+ 			<p>A team is never too big to win. <br>
+ 				Willing and ready to work hand-in-hand with your team.
+ 			</p>
+ 		</div>
+ 	</div>
+ </div>
+
+
+
+ </section>
+
+<!-- Contacts -->
+
+<section id="testimonial">
+	<div class="title-text">
+		<p>CONTACTS</p>
+		<h1>One Click Away</h1>
+	</div>
+	<div class="testimonial-row">
+		<div class="testimonial-col">
+			<div class="user">
+				<img src="{% static 'images/wwweb.webp' %}">
+				<div class="user-info">
+					<h4>EMAIL <i class="fa-solid fa-envelope-circle-check" style="color:green ;" ></i></h4>
+					<small>Trexin23@yahoo.com</small>
+				</div>
+			</div>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. tempor incididunt ut labore et dolore magna aliqua. <a href="contactme">Email now</a> </p>
+		</div>
+		<div class="testimonial-col">
+			<div class="user">
+				<img src=" {%static 'images/weblogo.png' %}">
+				<div class="user-info">
+					<h4>WHATSAPP <i class="fa-brands fa-whatsapp" style="color:green ;"></i> </h4>
+					<small>@09167211961</small>
+				</div>
+			</div>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. tempor incididunt ut labore et dolore magna aliqua. hit right get the glamour </p>
+		</div>
+		<div class="testimonial-col">
+			<div class="user">
+				<img src="{%static 'images/bunnylogo.jpg' %}">
+				<div class="user-info">
+					<h4>TWITTER <i class="fa-brands fa-twitter" style="color:green ;"></i> </h4>
+					<small>@DTrexin</small>
+				</div>
+			</div>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation </p>
+		</div>
+	</div>
+</section>
+
+<!-- ============MEET ME================== -->
+
+ 
+ <!-- footer -->
+
+<section id="meet" >
+	<div class="mtme"  >
+		<p>MEET ME</p>
+
+		<h1></h1>
+	</div>
+	<div class="list">
+		<!-- <button class="button">
+	<span class="text">submit</span>
+	<i class="ri-check-line icon"></i>
+		</button> -->
+		
+		<ul >
+		<li><button class="buttonb"> <span class="bio">BIOGRAPHY</span></button></li>
+
+		<li><button class="buttonq"> <span class="qual">QUALIFICATION</span></button></li>
+
+		<li><button class="buttons"><span class="ski">PROJECTS</span></button></li>
+
+		<!-- <li><button class="buttonh"><span class="hob">HOBBIES</span></button></li> -->
+	</ul>
+	</div>
+
+	<div id="slider">
+		<figure>
+			<img src="{% static 'images/meetm.jpeg' %}">
+			<img src="{% static 'images/mm.jpeg' %}">
+			<img src="{% static 'images/temi.jpeg' %}">
+			<img src="{% static 'images/adt.jpeg' %}">
+			<img src="{% static 'images/temz.jpeg' %}">
+		</figure>
+
+	</div>
+	
+		
+</div>
+</section>
+
+<script src="{% static 'js/app.js'%}"></script>
+
+
+<!-- {% block js_block %}
+	<script type="text/javascript" src="{% static 'js/app.js'}"></script>
+{% endblock %} -->
+
+<!-- <script src="app.js"></script>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "close.png";
+	}
+	else{
+		sideNav.style.right = "-250px";
+		menu.src = "imagesmenu.png";
+	}
+}
+
+</script> -->
+
+
+</body>
+</html>
